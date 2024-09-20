@@ -1,0 +1,45 @@
+[
+    {
+      "id": "12",
+      "name": "Llave inglesa",
+      "price": "36.99",
+      "priceDes": "59.99",
+      "imgUrl": ""
+    },
+    {
+      "id": "13",
+      "name": "Destornillador",
+      "price": "29.99",
+      "priceDes": "",
+      "imgUrl": ""
+    },
+    {
+      "id": "14",
+      "name": "Martillo",
+      "price": "12.99",
+      "priceDes": "",
+      "imgUrl": ""
+    },
+    {
+      "id": "15",
+      "name": "Sierra eléctrica",
+      "price": "15.99",
+      "priceDes": "",
+      "imgUrl": ""
+    },
+    {
+      "id": "16",
+      "name": "Cinta métrica",
+      "price": "22.99",
+      "priceDes": "",
+      "imgUrl": ""
+    },
+    {
+      "id": "17",
+      "name": "Llaves L",
+      "price": "49.99",
+      "priceDes": "",
+      "imgUrl": ""
+    }
+  ]
+  

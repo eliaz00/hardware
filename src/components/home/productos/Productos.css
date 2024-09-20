@@ -1,0 +1,12 @@
+.article-parrilla{
+    background: url(../../../assets/img/parrilla.jpg) center center no-repeat;
+    background-size: cover;
+}
+.article-cortadora{
+    background: url(../../../assets/img/cortadora.jpg) center center no-repeat;
+    background-size: cover;
+}
+.article-soldadura{
+    background: url(../../../assets/img/soldadura.jpeg) center center no-repeat;
+    background-size: cover;
+}

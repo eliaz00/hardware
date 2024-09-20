@@ -1,0 +1,17 @@
+#item-1{
+    background: url(../../../assets/img/cuchillos.jpg) center center no-repeat;
+    background-size: cover;
+}
+#item-2{
+    background: url(../../../assets/img/destornilladores2.jpg) center center no-repeat;
+    background-size: cover;
+}
+#item-3{
+    background: url(../../../assets/img/herramientas.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.hola{
+    background: url(../../../assets/img/herramientas.jpg) center center no-repeat;
+    background-size: cover;
+}

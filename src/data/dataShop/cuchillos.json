@@ -1,0 +1,44 @@
+[
+  {
+    "id": "6",
+    "name": "Afilador Ergonometrico Wayu",
+    "price": "36.99",
+    "priceDes": "59.99",
+    "imgUrl": ""
+  },
+  {
+    "id": "7",
+    "name": "Cuchillo Tokai Chef",
+    "price": "29.99",
+    "priceDes": "",
+    "imgUrl": ""
+  },
+  {
+    "id": "8",
+    "name": "Afilador Profesional Wayu Limited",
+    "price": "12.99",
+    "priceDes": "",
+    "imgUrl": ""
+  },
+  {
+    "id": "9",
+    "name": "Cuchillo de Cocina",
+    "price": "15.99",
+    "priceDes": "",
+    "imgUrl": ""
+  },
+  {
+    "id": "10",
+    "name": "Cuchillo de Chef",
+    "price": "22.99",
+    "priceDes": "",
+    "imgUrl": ""
+  },
+  {
+    "id": "11",
+    "name": "Set de Cuchillos",
+    "price": "49.99",
+    "priceDes": "",
+    "imgUrl": ""
+  }
+]

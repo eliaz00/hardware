@@ -1,0 +1,17 @@
+#footer div ul li a{
+    position: relative;
+}
+
+#footer div ul li a::before{
+    content: "";
+    background: white;
+    position: absolute;
+    height: 1px;
+    width: 0px;
+    bottom: -3px;
+    transition: 0.5s ease;
+}
+
+#footer div ul li a:hover::before{
+    width: 100%;
+}
