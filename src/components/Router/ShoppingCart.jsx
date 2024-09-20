@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { CartContext } from "../context/ShoppingCartContext";
+import "../Router/ShoppingCart.css"
 
 export const ShoppingCart = () => {
   const { cart, increaseQuantity, decreaseQuantity, eliminate } = useContext(CartContext);
@@ -7,17 +8,19 @@ export const ShoppingCart = () => {
   console.log("Cart:", cart);
 
   return (
-    <div>
+    <div className="">
       <div className="container mx-auto">
         <h1 className="text-center text-3xl font-bold text-gray-700 my-16">
           Carrito de Compras
         </h1>
         {cart.length === 0 ? (
-          <p>No hay productos en el carrito.</p>
+          <div className="h-screen">
+            <p className="text-center text-gray-600">Su carro actualmente está vacío.</p>
+          </div>
         ) : (
           <div className="overflow-x-auto my-20">
-            <table className="table">
-              <thead>
+            <table className="table container">
+              <thead className="lg:contents hidden">
                 <tr>
                   <th></th>
                   <th className="ps-16">Producto</th>
@@ -27,22 +30,22 @@ export const ShoppingCart = () => {
                   <th>Total</th>
                 </tr>
               </thead>
-              <tbody>
+              <tbody className="contents">
                 {cart.map((product, index) => (
-                  <tr key={index}>
+                  <tr className="responsive-table" key={index}>
                     <th>
                     <button className="font-bold text-xl" onClick={() => eliminate(product.id)}>X</button>
                     </th>
                     <td className="flex">
                       <img
-                        className="w-36"
+                        className="w-48 lg:mx-0 mx-auto"
                         src={`../../../images/${product.imgUrl}`}
                         alt=""
                       />        
                     </td>
-                    <td className="font-bold">{product.name}</td>
-                    <td className="font-bold">$ {product.price}</td>
-                    <td className="">
+                    <td className="lg:text-start text-center">{product.name}</td>
+                    <td className="lg:text-start text-center">$ {product.price}</td>
+                    <td className="lg:mx-0 mx-auto">
                       <div className="flex">
                         <button onClick={() => decreaseQuantity(product.id)}>
                           <svg
@@ -85,8 +88,8 @@ export const ShoppingCart = () => {
                         </button>
                       </div>
                     </td>
-                    <td className="font-bold w-36">
-                      <input type="text" name="" id="" value={'$ '+(product.price) * (product.quantity)} />
+                    <td className="lg:mx-0 mx-auto">
+                      <input className="lg:text-start text-center" type="" name="" id="" value={'$ '+(product.price) * (product.quantity)} />
                       {/* $ {(product.price) * (product.quantity)} */}
                       
                     </td>
@@ -97,6 +100,7 @@ export const ShoppingCart = () => {
           </div>
         )}
       </div>
+
     </div>
   );
 };

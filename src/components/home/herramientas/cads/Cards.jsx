@@ -39,7 +39,7 @@ export const Cards = ({ id, name, price, add }) => {
       </article>
       <div>
         <p className="font-bold text-gray-600 my-3">{name}</p>
-        <p className="font-bold text-gray-600">{price}</p>
+        <p className="font-bold text-gray-600">$ {price}</p>
       </div>
     </div>
 

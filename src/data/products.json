@@ -8,23 +8,23 @@
     },
     {
         "id": 2,
-        "name":"Taladro 2500 c",
-        "price":"150.99",
+        "name":"Parrillera STRUCK",
+        "price":"249.99",
         "item": "item-5",
-        "imgUrl": "taladro1.png"
+        "imgUrl": "parrillera.png"
     },
     {
         "id": 3,
-        "name":"Taladro 2500 c",
-        "price":"150.99",
+        "name":"Soldadora Trifasica",
+        "price":"180.99",
         "item": "item-6",
-        "imgUrl": "taladro1.png"
+        "imgUrl": "soldadora.png"
     },
     {
         "id": 4,
-        "name":"Taladro 2500 c",
-        "price":"150.99",
+        "name":"Esmeril de mano",
+        "price":"65.99",
         "item": "item-7",
-        "imgUrl": "taladro1.png"
+        "imgUrl": "esmeril.png"
     }
 ]

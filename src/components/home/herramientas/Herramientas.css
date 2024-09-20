@@ -5,18 +5,16 @@
   background-position: center;
 }
 #item-5 {
-  background: url(../../../assets/img/taladro1.png) center no-repeat;
+  background: url(../../../assets/img/parrillera.png) center no-repeat;
   background-size: contain;
 }
 #item-6 {
-  background: url(../../../assets/img/taladro1.png) center no-repeat;
+  background: url(../../../assets/img/soldadora.png) center no-repeat;
   background-size: contain;
 }
 #item-7 {
-  background: url(../../../assets/img/taladro1.png) center no-repeat;
+  background: url(../../../assets/img/esmeril.png) center no-repeat;
   background-size: contain;
 }
 
-/* .fondo-madera{
-    background: url(../../assets/img/fondo-madera.jpg) center center;
-} */
+
